@@ -1,0 +1,114 @@
+.brends{
+    background: #0F0F0F;
+    color: #FFF;
+    font-family: Playfair Display;
+    height: 300px;
+    margin-top: 150px;
+}
+.brends_title_place{
+    margin-top: 60px;
+    flex-direction: column;
+}
+.brends_title{    
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.brends_image{
+    width: 245px;
+    height: 94px;
+    flex-shrink: 0;
+    background: url(../img/Rectangle\ 12.png)  no-repeat;
+    margin-right: 30px;
+}
+.brends_block{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media screen and (max-width: 1120px) {
+    .brends_image{
+        background-size: 200px;
+        width: 200px;
+        height: 94px;
+        margin:0;
+    }
+}
+@media screen and (max-width: 850px) {
+    .brends_image{
+        background-size: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .brends_image{
+        background-size: 100px;
+        width: 100px;
+    }
+    .brends_title{    
+        font-size: 24px;
+    }
+    .brends{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .brends_image{
+        height: 40px;
+        background-size: 80px;
+        width: 80px;
+    }
+}
+    
+
+/*
+.animation_1 {
+    position: relative;
+    animation-name: animation__1;
+    animation-duration: 1.5s;
+}
+.animation_2 {
+    opacity: 0;
+    position: relative;
+    animation-name: animation__2;
+    animation-duration: 1.5s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+}
+.animation_3 {
+    opacity: 0;
+    position: relative;
+    animation-name: animation__3;
+    animation-duration: 1.5s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+}
+.animation_4 {
+    opacity: 0;
+    position: relative;
+    animation-name: animation__4;
+    animation-duration: 1.5s;
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+}
+@keyframes animation__1 {
+    0%   {left:-1500px; top:100px;}
+    50%  {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes animation__2 {
+    0%   {opacity: 1;left:-1500px; top:100px;}
+    50%  {opacity: 1;left:0px; top:100px;}
+    100% {opacity: 1;left:0px; top:0px;}
+}
+@keyframes animation__3 {
+    0%   {opacity: 1;left:-1500px; top:100px;}
+    50%  {opacity: 1;left:0px; top:100px;}
+    100% {opacity: 1;left:0px; top:0px;}
+}
+@keyframes animation__4 {
+    0%   {opacity: 1;left:-1500px; top:100px;}
+    50%  {opacity: 1;left:0px; top:100px;}
+    100% {opacity: 1;left:0px; top:0px;}
+}

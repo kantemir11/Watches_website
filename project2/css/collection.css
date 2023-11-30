@@ -1,0 +1,81 @@
+.collection__content{
+    max-width: 1920px;
+    height: 600px;
+    margin: 0 auto;
+}
+.collection__left{
+    width: 880px;
+    height: 600px;
+    flex-shrink: 0;
+    background: url("../img/Rectangle\ 9.png") center;
+}
+.collection__right{
+    width: 1040px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.collection__suptitle{
+    width: 471px;
+    height: 173px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+}
+.collection__view{
+    margin-top: 61px;
+    width: 310px;
+    height: 47px;
+}
+.view{
+    width: 310px;
+font-family: "PT Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+transition: 1s;
+}
+.view:hover{
+    border-color: gray;
+    background-color: gray;
+}
+.collection__title{
+    font-family: "Playfair Display";
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 48px
+}
+@media screen and (max-width: 880px){
+    .collection__content{
+        max-width: 880px;
+        height: 600px;
+        flex-shrink: 0;
+        background: url("../img/Rectangle\ 9.png") center;
+        justify-content: center;
+    }
+    .collection__left{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .collection__title{
+    font-size: 30px;
+    }
+    .view{
+    font-size: 14px;
+    }
+    .collection__suptitle{
+        width: 300px;
+        font-size: 12px;
+
+    }
+}

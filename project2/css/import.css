@@ -1,0 +1,21 @@
+@import "./base.css";
+@import "./header.css";
+@import "./underheader.css";
+@import "./hero.css";
+@import "./underhero.css";
+@import "./collection.css";
+@import "./new_products.css";
+@import "./brends.css";
+@import "./bottom.css";
+@font-face {
+    font-family: "PT Sans";
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Post No Bills Jaffna";
+    src: url(../fonts/PostNoBillsJaffna-Regular.ttf);
+}
+@font-face {
+    font-family: "Playfair Display";
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
